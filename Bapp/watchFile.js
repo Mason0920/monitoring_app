@@ -25,7 +25,7 @@ fs.watchFile(accessLogFile, (curr, prev) => {
 service
   .get('/health', (req, res) => res.send('Hello World!'))
 
-service.start(process.env.B_APP_PORT);
+service.start(3000);
 
 
 // test
