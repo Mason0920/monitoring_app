@@ -1,0 +1,22 @@
+{
+  "name": "fs-pract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "watchFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon watchFile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "googleapis": "^105.0.0",
+    "line-reader": "^0.4.0",
+    "request": "^2.88.2",
+    "restana": "^4.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
