@@ -78,7 +78,7 @@ app.post("/log", async (req, res) => {
     res.send(req.body);
 })
 
-app.get ("health", (req, res) => {
-    res.send("this app is healthy!")
+app.get ("/health", (req, res) => {
+    res.send("Capp is healthy!")
 })
-app.listen(1337, (req, res) => console.log("app is running on 1337"));
+app.listen(1337, (req, res) => console.log("Capp is running on 1337"));
